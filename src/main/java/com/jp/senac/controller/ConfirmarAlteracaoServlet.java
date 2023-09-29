@@ -25,7 +25,8 @@ public class ConfirmarAlteracaoServlet extends HttpServlet {
 		String genero = request.getParameter("genero");
 		String semestre = request.getParameter("semestre");
 		String nomeAntigo = request.getParameter("nomeAntigo");
-		
+		/// comentario teste
+
 		HttpSession session = request.getSession();
 		List<Aluno> listaAlunos = (List<Aluno>) session.getAttribute("listaAlunos");
 		
